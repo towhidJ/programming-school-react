@@ -26,9 +26,16 @@ const Course = (props) => {
                 <div className="card-footer">
                     <div className="pb-2 d-lg-flex justify-content-between  align-items-center">
                         <div>
-                            <p>{students} Students</p>
+                            <p style={{ color: "darkcyan", fontWeight: "700" }}>
+                                <i className="fas fa-graduation-cap    "> </i>
+                                {students} Students
+                            </p>
+                        </div>
+                        <div style={{ color: "green", fontWeight: "700" }}>
                             <p>Total Seat {seat}</p>
                         </div>
+                    </div>
+                    <div className="pb-2 d-lg-flex justify-content-between  align-items-center">
                         <div>
                             <Rating name="size-small" defaultValue={star} />
                         </div>

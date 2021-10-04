@@ -20,7 +20,7 @@ const Home = () => {
                     </h3>
                     <p>50+ million people are already learning on Coursera.</p>
                 </div>
-                <div className="row row-cols-md-2 row-cols-1 row-cols-lg-3 g-4">
+                <div className="row row-cols-md-3 row-cols-1 row-cols-lg-4 g-4">
                     {items.map((course) => (
                         <Course key={course.key} course={course}></Course>
                     ))}
