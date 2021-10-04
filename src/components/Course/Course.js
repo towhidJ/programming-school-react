@@ -24,13 +24,13 @@ const Course = (props) => {
                     <p className="card-text">{description}</p>
                 </div>
                 <div className="card-footer">
-                    <div className="pb-2 d-flex justify-content-between align-items-center">
+                    <div className="pb-2 d-lg-flex justify-content-between  align-items-center">
                         <div>
                             <p>{students} Students</p>
                             <p>Total Seat {seat}</p>
                         </div>
                         <div>
-                            <Rating name="size-small" defaultValue={2} />
+                            <Rating name="size-small" defaultValue={star} />
                         </div>
 
                         <div>

@@ -7,7 +7,7 @@ import Team from "../Team/Team";
 import useCourse from "./../../hooks/useCourse";
 
 const Home = () => {
-    const [courses, setCourses] = useCourse();
+    const [courses] = useCourse();
     const size = 4;
     const items = courses.slice(0, size);
     return (
@@ -20,9 +20,9 @@ const Home = () => {
                     </h3>
                     <p>50+ million people are already learning on Coursera.</p>
                 </div>
-                <div className="row row-cols-3 g-4">
+                <div className="row row-cols-md-2 row-cols-1 row-cols-lg-3 g-4">
                     {items.map((course) => (
-                        <Course course={course}></Course>
+                        <Course key={course.key} course={course}></Course>
                     ))}
                 </div>
 

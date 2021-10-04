@@ -1,5 +1,5 @@
 import React from "react";
-
+import app from "../../asset/images/app.jpg";
 const Footer = () => {
     return (
         <div>
@@ -58,11 +58,6 @@ const Footer = () => {
                                 Privacy Policy
                             </a>
                         </div>
-                        <div className="my-2">
-                            <p className="text-white me-2">
-                                &copy 2021 bike. All rights reserved
-                            </p>
-                        </div>
                     </div>
                     <div className="me-5">
                         <h5 className="text-white">Get The App</h5>
@@ -70,7 +65,7 @@ const Footer = () => {
                             className="img-fluid"
                             height="80px"
                             width="135px"
-                            src="images/app.png"
+                            src={app}
                             alt=""
                         />
                     </div>

@@ -18,7 +18,7 @@ const Contact = () => {
                     <div className="  d-flex justify-content-between">
                         <div className="me-4">
                             <h1>
-                                <i class="fas fa-phone    "></i>
+                                <i className="fas fa-phone    "></i>
                             </h1>
                         </div>
                         <div>
@@ -36,7 +36,7 @@ const Contact = () => {
                     <div>
                         <div className="  d-flex justify-content-between">
                             <h1 className="me-4">
-                                <i class="fa fa-location-arrow"></i>
+                                <i className="fa fa-location-arrow"></i>
                             </h1>
                         </div>
                         <div>
@@ -54,7 +54,7 @@ const Contact = () => {
                     <div>
                         <div className="  d-flex justify-content-between">
                             <h1 className="me-4">
-                                <i class="fas fa-mail-bulk    "></i>
+                                <i className="fas fa-mail-bulk    "></i>
                             </h1>
                         </div>
                         <div>
