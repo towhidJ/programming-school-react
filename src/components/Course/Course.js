@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Rating } from "@mui/material";
 import model from "../../asset/images/model.png";
 import "./Course.css";
 const Course = () => {
@@ -16,10 +16,18 @@ const Course = () => {
                 </div>
                 <div className="card-footer">
                     <div className="pb-2 d-flex justify-content-between align-items-center">
-                        <div>$256</div>
                         <div>
-                            <Button variant="outlined">Buy Now</Button>
+                            <p>1 Student</p>
                         </div>
+                        <div>
+                            <Rating name="size-small" defaultValue={2} />
+                        </div>
+
+                        <div>$256</div>
+                    </div>
+
+                    <div className="text-center">
+                        <Button variant="outlined">Buy Now</Button>
                     </div>
                 </div>
             </div>
