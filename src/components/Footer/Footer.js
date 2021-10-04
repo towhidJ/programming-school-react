@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import app from "../../asset/images/app.jpg";
 const Footer = () => {
     return (
@@ -7,56 +8,44 @@ const Footer = () => {
                 <div className="container d-md-flex justify-content-between">
                     <div>
                         <div className="my-2">
-                            <a
+                            <Link
                                 className="text-decoration-none text-white me-2"
-                                href="#"
+                                to="/"
                             >
-                                Download
-                            </a>
-                            <a
+                                Home
+                            </Link>
+                            <Link
                                 className="text-decoration-none text-white me-2"
-                                href="#"
+                                to="/course-home"
                             >
-                                Licence
-                            </a>
+                                Course
+                            </Link>
                         </div>
                         <div className="my-2">
-                            <a
+                            <Link
                                 className="text-decoration-none text-white me-2"
-                                href="#"
+                                to="/team"
                             >
-                                About
-                            </a>
-                            <a
+                                Team
+                            </Link>
+                            <Link
                                 className="text-decoration-none text-white me-2"
-                                href="#"
+                                to="/contact"
                             >
-                                Feture
-                            </a>
-                            <a
+                                Contact
+                            </Link>
+                            <Link
                                 className="text-decoration-none text-white me-2"
-                                href="#"
+                                to="/tearms"
                             >
-                                Pricing
-                            </a>
-                            <a
+                                Tearms & Service
+                            </Link>
+                            <Link
                                 className="text-decoration-none text-white me-2"
-                                href="#"
-                            >
-                                Carees
-                            </a>
-                            <a
-                                className="text-decoration-none text-white me-2"
-                                href="#"
-                            >
-                                Help
-                            </a>
-                            <a
-                                className="text-decoration-none text-white me-2"
-                                href="#"
+                                to="/privacy"
                             >
                                 Privacy Policy
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="me-5">

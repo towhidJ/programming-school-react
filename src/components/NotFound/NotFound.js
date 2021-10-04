@@ -1,9 +1,19 @@
 import React from "react";
-
+import error from "../../asset/images/404.jpg";
 const NotFound = () => {
     return (
-        <div>
-            <p>The requested Not Found 404</p>
+        <div className="container text-center">
+            <div
+                className="d-flex justify-content-center align-items-center"
+                style={{ padding: "120px" }}
+            >
+                <div>
+                    <img src={error} alt="Error" style={{ height: "100px" }} />
+                </div>
+                <div>
+                    <h1>404 Page Not Found</h1>
+                </div>
+            </div>
         </div>
     );
 };
