@@ -44,7 +44,7 @@ const Header = () => {
                                     to="/about"
                                     className="nav-link header-nav-link"
                                 >
-                                    About
+                                    About Us
                                 </Link>
                             </li>
                             <li className="nav-item">
@@ -60,7 +60,7 @@ const Header = () => {
                                     to="/contact"
                                     className="nav-link header-nav-link"
                                 >
-                                    Contact
+                                    Contact Us
                                 </Link>
                             </li>
                             {/* <li className="nav-item ms-lg-5">
