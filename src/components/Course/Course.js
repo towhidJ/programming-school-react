@@ -1,33 +1,45 @@
-import { Button, Rating } from "@mui/material";
-import model from "../../asset/images/model.png";
+import { Rating } from "@mui/material";
+import Button from "@mui/material/Button";
+import { blueGrey, purple, teal } from "@mui/material/colors";
+import { styled } from "@mui/material/styles";
 import "./Course.css";
-const Course = () => {
+const Course = (props) => {
+    const { name, img, instructor, price, star, students, seat, description } =
+        props.course;
+
+    const ColorButton = styled(Button)(({ theme }) => ({
+        color: theme.palette.getContrastText(purple[500]),
+        backgroundColor: teal[700],
+        "&:hover": {
+            backgroundColor: blueGrey[800],
+        },
+    }));
     return (
         <div>
-            <div className="card">
-                <img src={model} className="card-img-top" alt="..." />
+            <div className="card course-card">
+                <img src={img} className="card-img-top course-img" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This content is a
-                        little bit longer.
-                    </p>
+                    <h3 className="card-title">{name}</h3>
+                    <h5 className="card-title">{instructor}</h5>
+                    <p className="card-text">{description}</p>
                 </div>
                 <div className="card-footer">
                     <div className="pb-2 d-flex justify-content-between align-items-center">
                         <div>
-                            <p>1 Student</p>
+                            <p>{students} Students</p>
+                            <p>Total Seat {seat}</p>
                         </div>
                         <div>
                             <Rating name="size-small" defaultValue={2} />
                         </div>
 
-                        <div>$256</div>
+                        <div>
+                            <h4 style={{ color: "tomato" }}>${price}</h4>
+                        </div>
                     </div>
 
                     <div className="text-center">
-                        <Button variant="outlined">Buy Now</Button>
+                        <ColorButton variant="contained">Buy Now</ColorButton>
                     </div>
                 </div>
             </div>

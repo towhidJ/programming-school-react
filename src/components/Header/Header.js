@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = () => {
     return (
-        <div>
+        <div className="mb-5">
             <nav className="navbar navbar-expand-lg navbar-light header-nav-bg fixed-top">
                 <div className="container-fluid">
                     <button
@@ -45,6 +45,14 @@ const Header = () => {
                                     className="nav-link header-nav-link"
                                 >
                                     About
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link
+                                    to="/team"
+                                    className="nav-link header-nav-link"
+                                >
+                                    Team
                                 </Link>
                             </li>
                             <li className="nav-item">

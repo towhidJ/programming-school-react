@@ -2,9 +2,9 @@ import React from "react";
 
 const Team = () => {
     return (
-        <div className="" style={{ backgroundColor: "aliceblue" }}>
+        <div className="py-5" style={{ backgroundColor: "aliceblue" }}>
             <div className="text-center">
-                <h1 className="fw-bold" style={{ textColor: "green" }}>
+                <h1 className="fw-bold" style={{ color: "darkorange" }}>
                     Meet professionals
                 </h1>
             </div>

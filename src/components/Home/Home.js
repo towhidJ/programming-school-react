@@ -4,8 +4,12 @@ import Banner from "../Banner/Banner";
 import Community from "../Community/Community";
 import Course from "../Course/Course";
 import Team from "../Team/Team";
+import useCourse from "./../../hooks/useCourse";
 
 const Home = () => {
+    const [courses, setCourses] = useCourse();
+    const size = 4;
+    const items = courses.slice(0, size);
     return (
         <div>
             <Banner></Banner>
@@ -16,11 +20,10 @@ const Home = () => {
                     </h3>
                     <p>50+ million people are already learning on Coursera.</p>
                 </div>
-                <div className="row row-cols-4">
-                    <Course></Course>
-                    <Course></Course>
-                    <Course></Course>
-                    <Course></Course>
+                <div className="row row-cols-3 g-4">
+                    {items.map((course) => (
+                        <Course course={course}></Course>
+                    ))}
                 </div>
 
                 <Community></Community>

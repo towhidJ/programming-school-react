@@ -7,6 +7,7 @@
         "price": "68",
         "seat": 36,
         "star": 3,
+        "description":"TOP RATED (BEST SELLER) #1 Master UX Design course 5 Million students learning worldWide with great collaboration",
         "students":12,
         "starCount": 3245,
         "img": "https://images-na.ssl-images-amazon.com/images/I/415oziPFA0L._AC_US218_.jpg"
@@ -16,21 +17,23 @@
         "category": "programming",
         "name": "IT Support",
         "instructor": "Mark Henry",
-        "price": "68",
+        "price": 185,
         "seat": 36,
+        "description":"TOP RATED (BEST SELLER) #1 Master IT course 5 Million students learning worldWide with great collaboration",
         "star": 3,
         "students":12,
         "starCount": 3245,
-        "img": "https://images-na.ssl-images-amazon.com/images/I/415oziPFA0L._AC_US218_.jpg"
+        "img": "https://i.ibb.co/VLzjC9f/Google.png"
     },
     {
         "key": 3,
         "category": "programming",
         "name": "Web Design",
         "instructor": "Mark Henry",
-        "price": "68",
+        "price": 785,
         "seat": 36,
-        "star": 3,
+        "description":"TOP RATED (BEST SELLER) #1 Master Web Design course 5 Million students learning worldWide with great collaboration",
+        "star": 1,
         "students":12,
         "starCount": 3245,
         "img": "https://images-na.ssl-images-amazon.com/images/I/415oziPFA0L._AC_US218_.jpg"
@@ -40,23 +43,77 @@
         "category": "programming",
         "name": "React Font-end Developer",
         "instructor": "Juker Beg ",
-        "price": "68",
+        "price": 130,
         "seat": 36,
-        "star": 3,
+        "star": 4,
+        "description":"TOP RATED (BEST SELLER) #1 Master React Font-end Design course 5 Million students learning worldWide with great collaboration",
         "students":12,
         "starCount": 3245,
-        "img": "https://images-na.ssl-images-amazon.com/images/I/415oziPFA0L._AC_US218_.jpg"
+        "img": "https://i.ibb.co/2ygf6bb/React.jpg"
     },
     {
         "key": 5,
         "category": "programming",
         "name": "Angular 10 Font-end Desinging",
         "instructor": "Google Mama",
-        "price": "128",
+        "price": 120,
         "seat": 36,
         "star": 5,
+        "description":"TOP RATED (BEST SELLER) #1 MasterAngular Font-End Design course 5 Million students learning worldWide with great collaboration",
         "students":132,
         "starCount": 3245,
-        "img": "https://images-na.ssl-images-amazon.com/images/I/415oziPFA0L._AC_US218_.jpg"
+        "img": "https://i.ibb.co/SyG45Ck/angular.png"
+    },
+    {
+        "key": 6,
+        "category": "programming",
+        "name": "C# .Net Web Developer",
+        "instructor": "Microsoft",
+        "price": 420,
+        "seat": 36,
+        "star": 5,
+        "description":"TOP RATED (BEST SELLER) #1 Master C# EntityFramework course 5 Million students learning worldWide with great collaboration",
+        "students":132,
+        "starCount": 3245,
+        "img": "https://i.ibb.co/v1Rvvxc/csharp.jpg"
+    },
+    {
+        "key": 7,
+        "category": "programming",
+        "name": "Python Djano Web Developer",
+        "instructor": "Microsoft",
+        "price": 420,
+        "seat": 36,
+        "star": 5,
+        "description":"TOP RATED (BEST SELLER) #1 Master Python course 5 Million students learning worldWide with great collaboration",
+        "students":132,
+        "starCount": 3245,
+        "img": "https://i.ibb.co/JHbmjm0/python.jpg"
+    },
+    {
+        "key": 8,
+        "category": "programming",
+        "name": "Java Programming Beginer",
+        "instructor": "Microsoft",
+        "price": 420,
+        "seat": 36,
+        "star": 5,
+        "description":"TOP RATED (BEST SELLER) #1 Master Java course 5 Million students learning worldWide with great collaboration",
+        "students":132,
+        "starCount": 3245,
+        "img": "https://i.ibb.co/MVS4jP1/java.jpg"
+    },
+    {
+        "key": 9,
+        "category": "programming",
+        "name": "C++ Programming Beginer",
+        "instructor": "Microsoft",
+        "price": 420,
+        "seat": 36,
+        "star": 5,
+        "description":"TOP RATED (BEST SELLER) #1 Master C++ course 5 Million students learning worldWide with great collaboration",
+        "students":132,
+        "starCount": 3245,
+        "img": "https://i.ibb.co/2drG4xK/cc.jpg"
     }
 ]
