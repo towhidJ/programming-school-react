@@ -2,9 +2,17 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div className="mt-5 pt-5">
+        <div className="mt-5 pt-5" style={{ backgroundColor: "aliceblue" }}>
             <div className="text-center container">
-                <p>Contact Information</p>
+                <p
+                    style={{
+                        color: "darkgreen",
+                        fontWeight: "900",
+                        fontSize: "20px",
+                    }}
+                >
+                    Contact Information
+                </p>
                 <h1>Let's Talk About For Your Business</h1>
                 <p>
                     Proin gravida nibh vel velit auctor aliquet. Aenean
@@ -33,8 +41,8 @@ const Contact = () => {
                 </div>
 
                 <div>
-                    <div>
-                        <div className="  d-flex justify-content-between">
+                    <div className="  d-flex justify-content-between">
+                        <div>
                             <h1 className="me-4">
                                 <i className="fa fa-location-arrow"></i>
                             </h1>
@@ -51,8 +59,8 @@ const Contact = () => {
                 </div>
 
                 <div>
-                    <div>
-                        <div className="  d-flex justify-content-between">
+                    <div className="  d-flex justify-content-between">
+                        <div>
                             <h1 className="me-4">
                                 <i className="fas fa-mail-bulk    "></i>
                             </h1>
